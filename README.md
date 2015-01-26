@@ -25,3 +25,9 @@ testy spustíte příkazem
 npm test
 ``` 
 Příkaz spustí testy a dále sleduje změny složky src, takže při každé změně zdrojových kódů, nebo testů spustí testy znovu.
+
+Pokud chcete, aby se testy spustili pouze jednou, bez sledování složky src, použijte příkaz
+```
+npm run test-single-run
+```
+
