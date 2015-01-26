@@ -1,0 +1,22 @@
+{
+  "name": "coderetreat-js",
+  "private": true,
+  "version": "1.0.0",
+  "description": "coderetreat-js empy project",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "test-single-run": "karma start karma.conf.js  --single-run"
+  },
+  "author": "Milan Lempera <milan@angular.cz>",
+  "devDependencies": {
+    "phantomjs": "~1.9",
+    "karma": "~0.12",
+    "karma-cli": "~0.0.4",
+    "karma-jasmine": "~0.2",
+    "karma-nested-reporter": "^0.1",
+    "karma-chrome-launcher": "~0.1",
+    "karma-firefox-launcher": "~0.1",
+    "karma-phantomjs-launcher": "~0.1"
+  }
+}
