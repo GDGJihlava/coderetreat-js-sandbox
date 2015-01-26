@@ -15,10 +15,6 @@ module.exports = function(config) {
     ],
     autoWatch: true,
     singleRun: false,
-    reporters: ['progress'],
-    junitReporter: {
-      outputFile: 'test_out/unit.xml',
-      suite: 'unit'
-    }
+    reporters: ['nested']
   });
 };
